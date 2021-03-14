@@ -18,7 +18,7 @@ import {
   FaInfo, FaLock, FaServicestack, FaUsersCog,
 } from "react-icons/all";
 
-import Logo from "assets/img/LogoPng.png";
+import Logo from "assets/img/LogoMedi.png";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -29,7 +29,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop > 399 ||
         document.body.scrollTop > 399
       ) {
-        setNavbarColor("navbar");
+        setNavbarColor("");
       } else if (
         document.documentElement.scrollTop < 400 ||
         document.body.scrollTop < 400
@@ -181,7 +181,7 @@ function IndexNavbar() {
             </NavItem>
 
              <NavItem>
-               <a className="text-white nav-link btn-round btn-lg btn-danger" href="/login-page">
+               <a className="text-white nav-link btn-round btn-lg btn-info" href="/login-page">
                 <FaLock/> Login
                </a>
             </NavItem>
