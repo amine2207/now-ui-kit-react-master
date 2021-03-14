@@ -29,7 +29,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop > 399 ||
         document.body.scrollTop > 399
       ) {
-        setNavbarColor("");
+        setNavbarColor("navbar");
       } else if (
         document.documentElement.scrollTop < 400 ||
         document.body.scrollTop < 400
@@ -170,7 +170,7 @@ function IndexNavbar() {
                   className="nav-link"
                   data-placement="bottom"
               activeClass="active"
-              to="Partners"
+              to="mainpartners"
               spy={true}
               smooth={true}
               offset={-70}

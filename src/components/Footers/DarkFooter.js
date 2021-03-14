@@ -1,6 +1,7 @@
 /*eslint-disable*/
 import React from "react";
-
+import { Link } from "react-scroll";
+import Scroll from "../ScrollToTop/Scroll";
 // reactstrap components
 import { Container } from "reactstrap";
 
@@ -11,49 +12,35 @@ function DarkFooter() {
         <nav>
           <ul>
             <li>
+               <Scroll showBelow={250}/>
+            </li>
+            <li>
               <a
                 href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Creative Tim
+                Mediterravenir
               </a>
             </li>
             <li>
-              <a
+              <Link
                 href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
+                to="about"
               >
                 About Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://blog.creative-tim.com?ref=nukr-dark-footer"
-                target="_blank"
-              >
-                Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
-          <a
-            href="https://www.invisionapp.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
-            Invision
-          </a>
-          . Coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
-            Creative Tim
-          </a>
-          .
+          © {new Date().getFullYear()}, Coded by{" "}
+            Quad Squad
         </div>
+
       </Container>
+
+
     </footer>
   );
 }
