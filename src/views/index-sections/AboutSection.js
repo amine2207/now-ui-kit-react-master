@@ -27,7 +27,7 @@ import {
      Card, CardHeader, CardBody,
 } from "reactstrap";
 
-import {BiRightArrow, GrNote} from "react-icons/all";
+import {BiRightArrow, FaFlag, GiEarthAfricaEurope, GrNote} from "react-icons/all";
 import AboutImg from "assets/img/AboutImg.png";
 
 function AboutSection() {
@@ -45,13 +45,14 @@ function AboutSection() {
                   <Card className="mx-5 my-5">
                       <CardHeader>
                           <h3 className="text-dark my-3">
-                              <BiRightArrow/> Méditerravenir ? </h3>
+                              <GiEarthAfricaEurope/> Mediterravenir  </h3>
                       </CardHeader>
                       <CardBody>
-                       <BiRightArrow/> Mediterranean and the future: The 2 reasons for the creation of
-                      'Méditerravenir' are directly mentioned in our name. Created in 2006 in France, and in 2012 in Tunisia, (new Méditerravenir creations are planned).     <br/>
-                        <GrNote/>   Méditerravenir is now present on both shores of the Mediterranean. <br/>
-                          <GrNote/> Méditerravenir is a mediator who deploys an educational and information approach: the association promotes studies and experiences leading to progress in the dialogue between the South and the North of the Mediterranean.
+                       <GrNote/> Created in 2012 in Tunisia. <br/>
+                       <GrNote/> Acts to promote and strengthen the South-North dialogue between individuals and institutions of the Mediterranean basin on the cultural, social, geopolitical and economic level. <br/>
+                       <GrNote/> Works mainly on civil rights and political life, education and vocational training at Euro-Mediterranean level.  <br/>
+                       <GrNote/> Its target groups are women entrepreneurs, salaried women and young people.<br/>
+                          <GrNote/> Méditerravenir has over 10 years of specific work experience in gender equality.
                       </CardBody>
                      </Card>
               </div>
